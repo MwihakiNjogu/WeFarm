@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".FarmerInput">
+
+
+
+
+    <!--   <LinearLayout-->
+    <!--       android:layout_width="wrap_content"-->
+    <!--       android:layout_height="wrap_content"-->
+    <!--       android:orientation="horizontal"-->
+    <!--      android:layout_margin="20dp">-->
+
+    <!--      <TextView-->
+    <!--          android:id="@+id/WeFarmName"-->
+    <!--          android:layout_width="wrap_content"-->
+    <!--          android:layout_height="wrap_content"-->
+    <!--          android:fontFamily="sans-serif-condensed"-->
+    <!--          android:text="We Farm"-->
+    <!--          android:textColor="@color/lavender"-->
+    <!--          android:textSize="40sp"-->
+    <!--          />-->
+
+    <!--   <TextView-->
+    <!--       android:layout_width="wrap_content"-->
+    <!--       android:layout_height="wrap_content"-->
+    <!--      android:id="@+id/WeFarmDesc"-->
+    <!--      android:text="Fresh Farm Produce"-->
+    <!--       -->
+    <!--       android:textColor="@color/lavender"-->
+    <!--       android:textSize="14sp" />-->
+    <!--      -->
+    <!--      <ImageView-->
+    <!--          android:layout_width="wrap_content"-->
+    <!--          android:layout_height="wrap_content"-->
+    <!--         android:id="@+id/WeFarmImage"-->
+    <!--          android:src="@drawable/logo" />-->
+    <!--   </LinearLayout>-->
+    <!--   -->
+
+    <!--      <LinearLayout-->
+    <!--          android:layout_width="0dp"-->
+    <!--          android:layout_height="125dp"-->
+    <!--         android:id="@+id/row1"-->
+    <!--         android:orientation="vertical"-->
+    <!--         android:layout_marginTop="10dp"-->
+    <!--         android:padding="10dp"-->
+    <!--         >-->
+
+    <!--         <androidx.cardview.widget.CardView-->
+    <!--             android:layout_width="0dp"-->
+    <!--             android:layout_height="match_parent"-->
+    <!--            android:id="@+id/FarmerCard"-->
+    <!--           -->
+    <!--             -->
+    <!--            app:cardCornerRadius="20dp">-->
+
+    <!--            <RelativeLayout-->
+    <!--                android:layout_width="2dp"-->
+    <!--                android:layout_height="match_parent">-->
+
+    <!--               <TextView-->
+    <!--                   android:id="@+id/FarmerName"-->
+    <!--                   android:layout_width="wrap_content"-->
+    <!--                   android:layout_height="wrap_content"-->
+    <!--                   android:layout_below="@+id/FarmerImage"-->
+    <!--                   android:layout_centerHorizontal="true"-->
+    <!--                   android:layout_marginTop="10dp"-->
+    <!--                   android:fontFamily="cursive"-->
+    <!--                   android:text="Farmer"-->
+    <!--                   android:textColor="@color/lavender" />-->
+
+    <!--               <ImageView-->
+    <!--                   android:id="@+id/FarmerImage"-->
+    <!--                   android:layout_width="70dp"-->
+    <!--                   android:layout_height="70dp"-->
+    <!--                   android:layout_centerHorizontal="true"-->
+    <!--                   android:layout_marginTop="15dp"-->
+    <!--                   android:src="@drawable/farmer" />-->
+
+
+    <!--            </RelativeLayout>-->
+    <!--         </androidx.cardview.widget.CardView>-->
+
+    <!--      </LinearLayout>-->
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+

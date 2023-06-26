@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230745440845",
+    "project_id": "we-farm-app-32dc1",
+    "storage_bucket": "we-farm-app-32dc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230745440845:android:936f2100d58a9e8bcfd204",
+        "android_client_info": {
+          "package_name": "com.example.wefarmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230745440845-o1o8meii5gdmfiuadqdmsfck3ab3smg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpwqfW8wUQWoUroOg5-hQZY7pREwaR-u0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230745440845-o1o8meii5gdmfiuadqdmsfck3ab3smg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_4"
+    android:orientation="vertical"
+    tools:context=".FarmerActivity">
+
+    <TextView
+        android:id="@+id/mTxtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="cursive"
+        android:text="Register"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffff"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        />
+
+    <EditText
+        android:id="@+id/mEdtName"
+        android:layout_width="323dp"
+        android:layout_height="48dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="#ffff"
+        android:textColorHint="#FFF"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/mEdtPassword"
+        android:layout_width="332dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:inputType="text"
+        android:textColorHint="#FFF"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/mEdtConfirmPassword"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:hint="ConfirmPassword"
+        android:inputType="text"
+        android:textColorHint="#FFF"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/mEdtEmail"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#F1EEEE"
+        android:textColorHint="#FFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@android:style/Widget.DeviceDefault.Light.Button"
+        android:layout_width="153dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Register"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/TvLogin"
+        android:layout_width="289dp"
+        android:layout_height="50dp"
+        android:text="Already have an account? Login"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+    />
+</LinearLayout>

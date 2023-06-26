@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/beige"
+    tools:context=".FarmerUpload">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16sp"
+        android:layout_marginLeft="130dp"
+        app:srcCompat="@drawable/imageicon" />
+
+    <EditText
+        android:id="@+id/mEdtItem"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="16sp"
+        android:background="@drawable/img_5"
+        android:hint="Product Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mEdtQuantity"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/img_5"
+        android:layout_marginBottom="16sp"
+        android:hint="Quantity"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mEdtPrice"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="16sp"
+        android:background="@drawable/img_5"
+        android:hint="Price"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="16sp"
+        android:hint="Product Description"
+        android:background="@drawable/img_5"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="16sp"
+        app:backgroundTint="@android:color/holo_green_dark"
+        android:text="Upload" />
+</LinearLayout>
